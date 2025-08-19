@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, Mom!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe0e9, #fff5e1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #d6336c;
+    }
+
+    h1 {
+      font-size: 60px;
+      animation: pop 1s ease-out;
+    }
+
+    p {
+      font-size: 24px;
+      margin-top: 20px;
+      color: #5c2a50;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.5); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .heart {
+      font-size: 50px;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-style: italic;
+      color: #7c3e66;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎂 妈妈生日快乐! 🎉</h1>
+  <div class="heart">❤️</div>
+  <p>亲爱的妈妈，
+
+生日快乐！💐
+
+今天，我只想花点时间告诉您，我是多么地爱您、感激您。您一直是我力量、安慰和智慧的最大源泉无论时光流逝，这一点都不会改变。
+
+您的善良、耐心和无条件的爱塑造了我的今天，胜过世间任何事物。您总是先人后己，总是不带任何评判地倾听，总是在我人生的起起伏伏中陪伴着我。感谢您所做的一切，以及更多谢谢您。
+
+在这个特殊的日子里，我希望您感受到您给予他人的所有爱都得到了百倍的回报。您值得拥有世间所有的幸福，我希望今年您能拥有平和、欢笑和所有心之所愿。
+
+享受今天，庆祝自己，并知道您对我有多重要不仅是今天，而是每天。</p>
+  <div class="footer">
+    用我全部的爱
+,<br>
+    Huang Yu Ping
+  </div>
+</body>
+</html>
